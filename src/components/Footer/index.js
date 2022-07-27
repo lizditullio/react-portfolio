@@ -2,16 +2,11 @@ import React from 'react';
 
 function Footer() {
   return (
-  
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-        </p>
+    <footer class="footer" id="footer">
+   <h1 className="footer-title"> Check out my work</h1>
+   <a href="https://github.com/lizditullio"><img src="https://img.icons8.com/color/48/000000/github.png" alt="Github" class="icon"/></a>
+        <a href="https://www.linkedin.com/in/elizabeth-ditullio-ab0548145/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" class="icon"/></a>
+</footer>
  
   );
 }

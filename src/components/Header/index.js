@@ -1,17 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Nav from '../../components/Nav';
+import About from '../../components/About';
+import Portfolio from '../../components/Portfolio';
+import Contact from '../../components/Contact';
+import Resume from '../../components/Resume';
 
 function Header() {
+
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+        return <Resume />;
+      }
+    return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+
+
   return (
-  
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-        </p>
+    <div className="header" id="header">
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
  
   );
 }
