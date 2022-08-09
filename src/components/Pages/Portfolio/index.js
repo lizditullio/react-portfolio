@@ -6,14 +6,15 @@ import RG from '../assets/RG.png'
 import WD from '../assets/WD.png'
 import ET from '../assets/ET.png'
 
+
 export default function Portfolio() {
   return (
-    <div className="bg-warning bg-gradient">
+    <div>
       <h1 className="text-center py-3">Portfolio Page</h1>
       <br></br>
       <div className="text-center container">
         <ul class="row">
-          <li className="list-unstyled col">
+          <li className="list-unstyled">
               <h3>Better Reads</h3>
               <br></br>
               <a href="https://github.com/tmenture/Better-Reads">
@@ -22,7 +23,7 @@ export default function Portfolio() {
                     height="400"></img>
                 </a>
           </li>
-          <li className="list-unstyled col">
+          <li className="list-unstyled">
               <h3>Search Party </h3>
               <br></br>
               <a href="https://github.com/tmenture/Front-End-Project">
@@ -31,7 +32,7 @@ export default function Portfolio() {
                     height="400"></img>
                 </a>
           </li>
-          <li className="list-unstyled col">
+          <li className="list-unstyled">
               <h3> Tech Blog </h3>
               <br></br>
               <a href="https://github.com/lizditullio/mvc-tech-blog">
@@ -40,7 +41,7 @@ export default function Portfolio() {
                     height="400"></img>
                 </a>
           </li>
-          <li className="list-unstyled col">
+          <li className="list-unstyled">
               <h3> READMe Generator </h3>
               <br></br>
               <a href="https://github.com/lizditullio/README-Generator">
@@ -49,7 +50,7 @@ export default function Portfolio() {
                   height="400"></img>
                 </a>
           </li>
-          <li className="list-unstyled col">
+          <li className="list-unstyled">
               <h3> Weather Dashboard </h3>
               <br></br>
               <a href="https://github.com/lizditullio/Challenge-6">
@@ -58,7 +59,7 @@ export default function Portfolio() {
                    height="400"></img>
                 </a>
           </li>
-          <li className="list-unstyled col">
+          <li className="list-unstyled">
               <h3> Employee Tracker </h3>
               <br></br>
               <a href="https://github.com/lizditullio/employee-tracker-">

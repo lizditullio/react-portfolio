@@ -6,11 +6,11 @@ function NavBarTabs({ currentPage, handlePageChange }) {
     <h3 className="px-5 py-2">
         Liz DiTullio
     </h3>
-      <li className="nav-item">
+      <li className="nav-item ">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link text-secondary'}
         >
           About Me
         </a>
@@ -19,7 +19,7 @@ function NavBarTabs({ currentPage, handlePageChange }) {
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link text-secondary'}
         >
           Portfolio
         </a>
@@ -28,7 +28,7 @@ function NavBarTabs({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link text-secondary'}
         >
           Contact
         </a>
@@ -37,7 +37,7 @@ function NavBarTabs({ currentPage, handlePageChange }) {
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link text-secondary'}
         >
           Resume
         </a>
