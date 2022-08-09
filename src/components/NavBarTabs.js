@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Nav(currentPage, handlePageChange) {
+function NavBarTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav ">
-    <h1>
+    <ul className="nav nav-tabs">
+    <h3 className="px-5 py-2">
         Liz DiTullio
-    </h1>
-      <li>
+    </h3>
+      <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -48,5 +48,4 @@ function Nav(currentPage, handlePageChange) {
   );
 }
 
-
-export default Nav;
+export default NavBarTabs;
