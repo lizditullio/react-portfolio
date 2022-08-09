@@ -1,20 +1,31 @@
 import React from 'react';
 
-
-function Portfolio() {
+export default function Portfolio() {
   return (
-  
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-        </p>
- 
+    <div className="bg-warning bg-gradient">
+      <h1 className="text-center py-3">Portfolio Page</h1>
+      <h5 className="text-center"> 
+      </h5>
+      <br></br>
+      <div className="text-center container">
+        <ul class="row">
+        </ul>
+        <ul class="row">
+          <br></br>
+        </ul>
+      </div>
+      <section id="contact-me" class="contact-me">
+        <div class="text-center">
+        </div>
+        <h2 class="contact-info text-center"> Contact and Connect with Me! </h2>
+        </section>
+        <br></br>
+        <div className="text-center">
+            <ul className="text-center d-inline">
+            </ul>
+        </div>
+        <ul className="text-center d-inline">
+        </ul>
+    </div>
   );
 }
-
-export default Portfolio;
