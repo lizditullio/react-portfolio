@@ -11,6 +11,7 @@ button{
     background:  #843bc035;
     margin: 10px;
     padding: 20px;
+    border-radius: 15px; 
 }
 
 button:hover{
