@@ -26,25 +26,8 @@ export default function About() {
         <section id="contact-me" class="contact-me">
         <div class="text-center">
         </div>
-        <h2 class="contact-info text-center"> Contact and Connect with Me! </h2>
+        <h2 class="contact-info text-center"> Where to Reach Me </h2>
         </section>
-        <br></br>
-        <div className="text-center">
-            <ul className="text-center d-inline">
-    
-            </ul>
-        </div>
-        <ul className="text-center d-inline">
-           <li>
-               Email: <a href="mailto:ehditullio@gmail.com">ehditullio@gmail.com</a>
-           </li>
-           <li>
-                GitHub: <a href= "https://github.com/lizditullio" >My Git Hub</a>
-            </li>
-           <li>
-                Phone: <a href="tel:(856 203-4507">(856)-203-4507</a>
-           </li>
-        </ul>
     </div>
 
   );
