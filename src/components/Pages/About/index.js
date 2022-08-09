@@ -9,15 +9,15 @@ export default function About() {
         <div className="row">
             <div className="col-sm-6">
                 <p className="float-right">
-                    Bio
+                   My name is Liz DiTullio. In May 2018, I graduded from Cabrini University with my Bachelors in Mathematics. I have spent the last 4 years working as High School Math Teacher, but I am looking to change careers. 
                 </p>
                 <br></br>
                 <p className="float-right">
-                    Bio
+                    
                 </p>
                 <br></br>
                 <p className="float-right">
-                    Bio
+                    I enjoy problem solving and learning new things.
                 </p>
             </div>
         </div>
