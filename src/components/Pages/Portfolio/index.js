@@ -5,6 +5,7 @@ import TB from '../assets/TB.png'
 import RG from '../assets/RG.png'
 import WD from '../assets/WD.png'
 import ET from '../assets/ET.png'
+import BR2 from '../assets/BR.png'
 
 
 export default function Portfolio() {
@@ -14,6 +15,15 @@ export default function Portfolio() {
       <br></br>
       <div className="text-center container">
         <ul class="row">
+          <li className="list-unstyled">
+              <h3>Better Reads 2.0 </h3>
+              <br></br>
+              <a href="https://better-reads-2.herokuapp.com/">
+                  <img className="col-sm-12" src={BR2} alt="Better Reads" 
+                    width="800"
+                    height="400"></img>
+                </a>
+          </li>
           <li className="list-unstyled">
               <h3>Better Reads</h3>
               <br></br>
@@ -55,15 +65,6 @@ export default function Portfolio() {
               <br></br>
               <a href="https://github.com/lizditullio/Challenge-6">
                   <img className="col-sm-12" src={WD} alt="Weather Dashboard"
-                   width="800"
-                   height="400"></img>
-                </a>
-          </li>
-          <li className="list-unstyled">
-              <h3> Employee Tracker </h3>
-              <br></br>
-              <a href="https://github.com/lizditullio/employee-tracker-">
-                  <img className="col-sm-12" src={ET} alt="Employee Tracker"
                    width="800"
                    height="400"></img>
                 </a>
